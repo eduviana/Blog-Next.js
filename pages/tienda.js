@@ -3,10 +3,10 @@ import Listado from "../components/Listado";
 
 
 const Tienda = ({ guitarras }) => {
-  console.log(guitarras);
+
   return (
     <Layout pagina="Tienda Virtual">
-      <main>
+      <main className="contenedor">
         <h1 className="heading">Nuestra Colección</h1>
 
         <Listado 

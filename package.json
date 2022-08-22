@@ -1,5 +1,5 @@
 {
-  "name": "guitarla_next",
+  "name": "guitarla-next",
   "private": true,
   "scripts": {
     "dev": "next dev",

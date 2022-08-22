@@ -41,6 +41,7 @@
     color: var(--negro);
     border: 2px solid var(--primary);
     padding: 1rem 5rem;
+    border-radius: .5rem;
     transition-property: background-color;
     transition-duration: 0.3s;
   }

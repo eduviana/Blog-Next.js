@@ -26,6 +26,7 @@
 .navegacion {
   margin-top: 5rem;
   display: flex;
+  align-items: center;
   gap: 2rem;
   position: relative;
   z-index: 1;
@@ -43,6 +44,7 @@
   font-weight: 700;
   text-transform: uppercase;
   padding: 0.5rem;
+  border-radius: .5rem;
   transition-property: background-color;
   transition-duration: 0.3s;
 }
@@ -50,6 +52,7 @@
 .navegacion a:hover {
   background-color: var(--primary);
 }
+
 
 .modelo {
   color: var(--blanco);
@@ -93,6 +96,7 @@
   color: var(--blanco);
   border: 2px solid var(--primary);
   padding: 1rem 5rem;
+  border-radius: .5rem;
   transition-property: background-color;
   transition-duration: 0.3s;
 }
